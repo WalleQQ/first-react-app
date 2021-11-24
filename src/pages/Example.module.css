@@ -1,0 +1,21 @@
+.example {
+  padding: 100px 0;
+}
+
+.example__heading {
+  margin: 0;
+  font-size: 40px;
+  line-height: 47px;
+  font-family: 'Roboto-bold';
+  margin-bottom: 34px;
+}
+
+.example__imgContainer {
+  box-shadow: 0 0 30px 20px rgba(244, 74, 30, 0.15);
+  width: 258px;
+  height: 258px;
+}
+
+.example__img {
+  object-fit: cover;
+}

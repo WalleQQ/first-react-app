@@ -1,0 +1,40 @@
+@import '../../variables';
+
+.hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.pageHeader {
+  background-color: var(--basic-black);
+  width: 100%;
+}
+
+.mainNav {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 45px 0 36px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainNav__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainNav__item {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.mainNav__item:not(:last-child) {
+  margin-right: 26px;
+}

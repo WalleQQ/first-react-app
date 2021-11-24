@@ -1,0 +1,15 @@
+@import '../../variables.css';
+
+.pageFooter {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 44px 0 45px 0;
+  background-color: var(--basic-black);
+}
+
+.copyright__text {
+  margin: 0;
+  font-size: 20px;
+  line-height: 23px;
+}
