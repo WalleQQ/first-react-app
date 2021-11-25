@@ -16,7 +16,7 @@ const MyLogo = () => {
       {isHomePage ? (
         <MyLogoSvg />
       ) : (
-        <Link to='/'>
+        <Link style={{ display: 'flex' }} to='/'>
           <MyLogoSvg />
         </Link>
       )}
