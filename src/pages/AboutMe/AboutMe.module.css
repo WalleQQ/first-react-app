@@ -1,4 +1,4 @@
-@import '../variables.css';
+@import '../../variables';
 
 .aboutMe {
   padding: 80px 0;
@@ -69,4 +69,31 @@
   object-fit: cover;
   height: 100%;
   border-radius: 50%;
+}
+
+@media (max-width: 1024px) {
+  .aboutMe {
+    padding: 30px 0;
+  }
+
+  .aboutMe__contentContainer {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .aboutMe__name {
+    grid-row: 2 / 3;
+  }
+
+  .aboutMe__content {
+    text-align: center;
+    margin: 0;
+    grid-row: 3 / 4;
+  }
+
+  .aboutMe__avatarContainer {
+    width: 350px;
+    height: 350px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
 }

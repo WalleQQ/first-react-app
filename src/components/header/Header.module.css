@@ -38,3 +38,15 @@
 .mainNav__item:not(:last-child) {
   margin-right: 26px;
 }
+
+@media (max-width: 1300px) {
+  .mainNav {
+    padding: 45px 20px 36px 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .mainNav {
+    padding: 45px 10px 36px 10px;
+  }
+}
