@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import AboutMe from './pages/AboutMe';
+import AboutMe from './pages/AboutMe/AboutMe';
 import { Layout } from './hoc/Layout';
-import Example from './pages/Example';
+import Example from './pages/Example/Example';
 
 function App() {
   const routes = (

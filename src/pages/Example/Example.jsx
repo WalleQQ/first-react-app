@@ -1,6 +1,6 @@
 import React from 'react';
-import FetchImage from '../components/FetchImage';
-import Title from '../components/Title';
+import FetchImage from '../../components/FetchImage/FetchImage';
+import Title from '../../components/Title/Title';
 import styles from './Example.module.css';
 
 const Example = () => {
