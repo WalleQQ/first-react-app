@@ -7,7 +7,6 @@ const AboutMe = () => {
   return (
     <section className={styles.aboutMe}>
       <Title text='Обо мне' />
-      {/* <h2 className={styles.aboutMe__title}>Обо мне</h2> */}
       <div className={styles.aboutMe__contentContainer}>
         <h3 className={styles.aboutMe__name}>Виталий Драгулин</h3>
         <p className={styles.aboutMe__content}>

@@ -8,7 +8,9 @@ const Header = () => {
     <header className={styles.pageHeader}>
       <h1 className={styles.hidden}>Traffic isobar</h1>
       <nav className={styles.mainNav}>
-        <MyLogo />
+        <div className={styles.mainNav__logoContainer}>
+          <MyLogo />
+        </div>
         <ul className={styles.mainNav__list}>
           <li className={styles.mainNav__item}>
             <Link to='/'>Главная</Link>
