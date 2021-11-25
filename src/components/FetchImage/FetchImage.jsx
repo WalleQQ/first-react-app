@@ -41,7 +41,7 @@ const FetchImage = () => {
 
   if (error) return <p>Произошло что-то ужасное...Попробуй снова</p>;
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.example__imgContainer}>
         {loading ? (
           <div className={styles.lds__ripple}>

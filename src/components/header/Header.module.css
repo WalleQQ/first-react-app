@@ -39,6 +39,10 @@
   margin-right: 26px;
 }
 
+.mainNav__logoContainer {
+  display: grid;
+}
+
 @media (max-width: 1300px) {
   .mainNav {
     padding: 45px 20px 36px 20px;
@@ -48,5 +52,18 @@
 @media (max-width: 1024px) {
   .mainNav {
     padding: 45px 10px 36px 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .mainNav {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .mainNav__logoContainer {
+    display: grid;
+    justify-self: center;
+    margin-bottom: 30px;
   }
 }
