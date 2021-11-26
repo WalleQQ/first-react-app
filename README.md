@@ -2,9 +2,9 @@
 
 -Тестовое задание по макету https://www.figma.com/file/DVKWnq0U0kGYIIeApQUKpf/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-junior-frontend?node-id=1%3A83
 
-### Ссылка на GitHub Pages
+### Ссылка на firebase
 
-- /...
+- [web page](https://about-me-6ce90.web.app/)
 
 ### О проекте
 
